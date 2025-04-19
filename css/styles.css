@@ -387,9 +387,6 @@ img {
   overflow: hidden;
 }
 
-.list-item-picture {
-}
-
 .list-item-option {
   font-weight: 500;
   font-size: 20px;
@@ -514,7 +511,7 @@ img {
   background-color: #31d0aa;
 }
 
-.subscribe-blok {
+.subscribe {
   margin-left: 80px;
 }
 
@@ -527,12 +524,12 @@ img {
   margin-bottom: 16px;
 }
 
-.subscribe-form {
+.form-one {
   display: flex;
   gap: 24px;
 }
 
-.subscribe-form-input {
+.form-one-input {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;

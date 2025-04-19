@@ -485,26 +485,23 @@
           </ul>
         </div>
       </div>
-        <div class="subscribe-div">
-          <p class="subscribe-p">Subscribe</p>
-          <form action="/submit-form" class="form-sbsrb">
-            <label for="email-footer" class="subscribe-lbl">
-              <input
-                type="email"
-                name="email-footer"
-                placeholder="E-mail"
-                class="input-subscribe"
-                id="email-footer"
-              />
-            </label>
-            <button type="submit" class="btn-subscrb">
-              Subscribe
-              <svg class="sbscrb-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-frame"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+      <div class="subscribe-blok">
+        <p class="subscribe-text">Subscribe</p>
+        <form class="subscribe-form" name="subscribe-form">
+          <label class="label"
+            ><input
+              class="subscribe-form-input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+          /></label>
+          <button class="subscribe-button" type="submit">
+            Subscribe
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop" data-modal>
